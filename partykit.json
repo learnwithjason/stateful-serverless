@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.partykit.io/schema.json",
+  "name": "stateful-serverless",
+  "main": "src/server.ts",
+  "compatibilityDate": "2024-04-18",
+  "serve": {
+    "path": "public",
+    "build": "src/client.ts"
+  }
+}
